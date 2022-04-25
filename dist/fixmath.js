@@ -182,7 +182,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
     return Chain;
   }();
 
-  var version = "0.1.0";
+  var version = "0.1.2";
 
   var chain = function chain() {
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
