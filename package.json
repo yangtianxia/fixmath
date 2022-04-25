@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "shx rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript && shx cp src/types.d.ts dist/index.d.ts && shx cp index.js dist/index.js",
+    "build": "shx rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript && shx cp src/types.d.ts dist/index.d.ts",
     "test": "node test/index.js"
   },
   "repository": {
